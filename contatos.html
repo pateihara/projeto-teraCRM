@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,71 +9,74 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="app/style.css" rel="stylesheet" type="text/css"/>
+    <link href="app/style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <nav></nav>
     <main>
         <div class="container">
             <h2>Histórico de Contatos</h2>
-            <p>Aqui você pode atualizar ou editar contatos</p> 
+            <p>Aqui você pode atualizar ou editar contatos</p>
             <br>
-            <p>Adicionar contato</p>           
-           
+            <div class="alignRight mb-3">
+                <a href="xxxx" target="blank" class="btn-link">Adicionar contato</a>
+            </div>
             <table class="table">
-              <thead>
-                <tr>
-                  <th>Nome</th>
-                  <th>E-mail</th>
-                  <th>Telefone</th>
-                  <th>Status</th>
-                  <th>Histórico</th>
-                  <th>última atualização</th>
-                  <th>Ações</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Patricia Eihara</td>
-                  <td>pateihara@gmail.com</td>
-                  <td>(00) 0 0000-0000</td>
-                  <td>novo</td>
-                  <td>-</td>
-                  <td>-</td>
-                  <td>Editar</td>
-                </tr>
-                <tr>
-                    <td>Optimus Prime</td>
-                    <td>optimus@gmail.com</td>
-                    <td>(00) 0 0000-0000</td>
-                    <td>Negociação</td>
-                    <td>Pacote 2 - R$ 20.000,00</td>
-                    <td>10/10/2022</td>
-                    <td>Editar</td>
-                </tr>
-                <tr>
-                    <td>Harry Potter</td>
-                    <td>harrypotter@gmail.com</td>
-                    <td>(00) 0 0000-0000</td>
-                    <td>Conquistado</td>
-                    <td>Pacote 3 - R$ 80.000,00</td>
-                    <td>10/10/2023</td>
-                    <td>Editar</td>
-                </tr>
-                <tr>
-                    <td>Jão Ibarra</td>
-                    <td>jaoibarra@gmail.com</td>
-                    <td>(00) 0 0000-0000</td>
-                    <td>Perdido</td>
-                    <td>Pacote 5 - R$ 280.000,00</td>
-                    <td>05/11/2022</td>
-                    <td>Editar</td>
-                </tr>
-              </tbody>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                        <th>Status</th>
+                        <th>Histórico</th>
+                        <th>última atualização</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Patricia Eihara</td>
+                        <td>pateihara@gmail.com</td>
+                        <td>(00) 0 0000-0000</td>
+                        <td class="contatoStatusNovo">novo</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><a href="xxxx" class="btn-link">Editar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Optimus Prime</td>
+                        <td>optimus@gmail.com</td>
+                        <td>(00) 0 0000-0000</td>
+                        <td class="contatoStatusNegociacao">Negociação</td>
+                        <td class="contatoHistorico">Pacote 2 - R$ 20.000,00</td>
+                        <td>10/10/2022</td>
+                        <td><a href="xxxx" class="btn-link">Editar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Harry Potter</td>
+                        <td>harrypotter@gmail.com</td>
+                        <td>(00) 0 0000-0000</td>
+                        <td class="contatoStatusConquistado">Conquistado</td>
+                        <td class="contatoHistorico">Pacote 3 - R$ 80.000,00</td>
+                        <td>10/10/2023</td>
+                        <td><a href="xxxx" class="btn-link">Editar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jão Ibarra</td>
+                        <td>jaoibarra@gmail.com</td>
+                        <td>(00) 0 0000-0000</td>
+                        <td class="contatoStatusPerdido">Perdido</td>
+                        <td class="contatoHistorico">Pacote 5 - R$ 280.000,00</td>
+                        <td>05/11/2022</td>
+                        <td><a href="xxxx" class="btn-link">Editar</a></td>
+                    </tr>
+                </tbody>
             </table>
-          </div>
+        </div>
     </main>
     <footer></footer>
     <script src="script.js" defer></script>
 </body>
+
 </html>
